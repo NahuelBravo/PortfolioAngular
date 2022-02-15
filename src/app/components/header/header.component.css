@@ -4,9 +4,10 @@ header{
     padding: 0;
     background-color: var(--background-primary);
     color: var(--font-color-white);
+    margin-bottom: 2em;
 }
 
 app-logo-arg-prog,
 app-social-media{
-    font-size: 2em;
+    font-size: 3em;
 }
