@@ -1,0 +1,12 @@
+header{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-primary);
+    color: var(--font-color-white);
+}
+
+app-logo-arg-prog,
+app-social-media{
+    font-size: 2em;
+}

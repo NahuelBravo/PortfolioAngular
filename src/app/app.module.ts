@@ -11,9 +11,10 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
 import { SoftSkillsComponent } from './components/skills/soft-skills/soft-skills.component';
 import { HardSkillsComponent } from './components/skills/hard-skills/hard-skills.component';
-import { LogoutComponent } from './components/header/boton-login/logout/logout.component';
 import { BotonLoginLogoutComponent } from './components/header/boton-login-logout/boton-login-logout.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LogoArgProgComponent } from './components/header/logo-arg-prog/logo-arg-prog.component';
+import { SocialMediaComponent } from './components/header/social-media/social-media.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +27,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProyectsComponent,
     SoftSkillsComponent,
     HardSkillsComponent,
-    LogoutComponent,
-    BotonLoginLogoutComponent
+    BotonLoginLogoutComponent,
+    LogoArgProgComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,
