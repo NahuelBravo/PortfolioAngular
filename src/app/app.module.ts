@@ -15,6 +15,9 @@ import { BotonLoginLogoutComponent } from './components/header/boton-login-logou
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { LogoArgProgComponent } from './components/header/logo-arg-prog/logo-arg-prog.component';
 import { SocialMediaComponent } from './components/header/social-media/social-media.component';
+import { ProfilePictureComponent } from './components/about/profile-picture/profile-picture.component';
+import { NameJobComponent } from './components/about/name-job/name-job.component';
+import { TextComponent } from './components/about/text/text.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { SocialMediaComponent } from './components/header/social-media/social-me
     HardSkillsComponent,
     BotonLoginLogoutComponent,
     LogoArgProgComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    ProfilePictureComponent,
+    NameJobComponent,
+    TextComponent
   ],
   imports: [
     BrowserModule,

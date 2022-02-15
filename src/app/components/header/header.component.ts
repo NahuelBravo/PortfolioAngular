@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LogoArgProgComponent } from './logo-arg-prog/logo-arg-prog.component';
-import { SocialMediaComponent } from './social-media/social-media.component';
+
 
 @Component({
   selector: 'app-header',
