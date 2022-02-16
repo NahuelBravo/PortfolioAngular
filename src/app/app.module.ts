@@ -18,6 +18,8 @@ import { SocialMediaComponent } from './components/header/social-media/social-me
 import { ProfilePictureComponent } from './components/about/profile-picture/profile-picture.component';
 import { NameJobComponent } from './components/about/name-job/name-job.component';
 import { TextComponent } from './components/about/text/text.component';
+import { LogoComponent } from './components/education/logo/logo.component';
+import { InformationComponent } from './components/education/information/information.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { TextComponent } from './components/about/text/text.component';
     SocialMediaComponent,
     ProfilePictureComponent,
     NameJobComponent,
-    TextComponent
+    TextComponent,
+    LogoComponent,
+    InformationComponent
   ],
   imports: [
     BrowserModule,
