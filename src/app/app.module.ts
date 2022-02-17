@@ -20,6 +20,8 @@ import { NameJobComponent } from './components/about/name-job/name-job.component
 import { TextComponent } from './components/about/text/text.component';
 import { LogoComponent } from './components/education/logo/logo.component';
 import { InformationComponent } from './components/education/information/information.component';
+import { InformationExpComponent } from './components/experience/information-exp/information-exp.component';
+import { LogoExpComponent } from './components/experience/logo-exp/logo-exp.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { InformationComponent } from './components/education/information/informa
     NameJobComponent,
     TextComponent,
     LogoComponent,
-    InformationComponent
+    InformationComponent,
+    InformationExpComponent,
+    LogoExpComponent
   ],
   imports: [
     BrowserModule,
