@@ -2,3 +2,7 @@ img{
     width: 15em;
     border-radius: 50vw;
 }
+
+.button{
+    margin: 0 0 0.5em 0;
+}

@@ -1,0 +1,9 @@
+h2{
+    font-size: 3em;
+    color: var(--font-color-yellow);
+}
+
+p{
+    font-size: 2em;
+    color: var(--font-color-pink);
+}

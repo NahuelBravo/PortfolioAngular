@@ -1,3 +1,7 @@
 #container{
     width: 90vw;
+    background-color: var(--background-primary);
+    padding: 1em;
+    color: var(--font-color-white);
+    border-radius: 0.5em;
 }
