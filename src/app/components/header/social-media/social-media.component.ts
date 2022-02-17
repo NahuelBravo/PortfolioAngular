@@ -14,9 +14,9 @@ export class SocialMediaComponent implements OnInit {
   twitter = faTwitterSquare;
   gitHub = faGithubSquare;
 
-instagramLink: string = "https://www.instagram.com/";
-twitterLink: string = "https://twitter.com/?lang=en";
-gitHubLink: string = "https://github.com/"
+instagramLink: string = "https://www.instagram.com/nxxhu__/";
+twitterLink: string = "https://twitter.com/Nxxhu_";
+gitHubLink: string = "https://github.com/NahuelBravo"
   constructor() { }
 
   ngOnInit(): void {
