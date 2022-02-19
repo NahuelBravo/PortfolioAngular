@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
+title: string = "EXPERIENCIA";
+
   constructor() { }
 
   ngOnInit(): void {

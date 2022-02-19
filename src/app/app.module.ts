@@ -23,6 +23,7 @@ import { InformationComponent } from './components/education/information/informa
 import { InformationExpComponent } from './components/experience/information-exp/information-exp.component';
 import { LogoExpComponent } from './components/experience/logo-exp/logo-exp.component';
 import { CardComponent } from './components/education/card/card.component';
+import { CardExpComponent } from './components/experience/card-exp/card-exp.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { CardComponent } from './components/education/card/card.component';
     InformationComponent,
     InformationExpComponent,
     LogoExpComponent,
-    CardComponent
+    CardComponent,
+    CardExpComponent
   ],
   imports: [
     BrowserModule,
