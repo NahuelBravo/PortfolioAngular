@@ -4,6 +4,11 @@ h2{
 }
 
 p{
-    font-size: 2em;
+    font-size: 1.8em;
     color: var(--font-color-pink);
+    margin: 0;
+}
+
+app-button-edit-about{
+    padding-left: 0.5em;
 }

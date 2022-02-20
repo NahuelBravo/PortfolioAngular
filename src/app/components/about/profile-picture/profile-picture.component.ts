@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faPen } from '@fortawesome/free-solid-svg-icons'
+
 
 @Component({
   selector: 'app-profile-picture',
@@ -8,7 +8,7 @@ import { faPen } from '@fortawesome/free-solid-svg-icons'
 })
 export class ProfilePictureComponent implements OnInit {
 
-  faPen = faPen;
+
 
   profileAlt: string ="Profile picture "
   imgProfile: string = "assets/Img/blank-profile-picture.png";

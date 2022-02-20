@@ -24,6 +24,11 @@ import { InformationExpComponent } from './components/experience/information-exp
 import { LogoExpComponent } from './components/experience/logo-exp/logo-exp.component';
 import { CardComponent } from './components/education/card/card.component';
 import { CardExpComponent } from './components/experience/card-exp/card-exp.component';
+import { ButtonEditAboutComponent } from './components/about/button-edit-about/button-edit-about.component';
+import { ButtonEditEducationComponent } from './components/education/button-edit-education/button-edit-education.component';
+import { ButtonDeletedEducationComponent } from './components/education/button-deleted-education/button-deleted-education.component';
+import { ButtonEditExperienceComponent } from './components/experience/button-edit-experience/button-edit-experience.component';
+import { ButtonDeletedExperienceComponent } from './components/experience/button-deleted-experience/button-deleted-experience.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +52,12 @@ import { CardExpComponent } from './components/experience/card-exp/card-exp.comp
     InformationExpComponent,
     LogoExpComponent,
     CardComponent,
-    CardExpComponent
+    CardExpComponent,
+    ButtonEditAboutComponent,
+    ButtonEditEducationComponent,
+    ButtonDeletedEducationComponent,
+    ButtonEditExperienceComponent,
+    ButtonDeletedExperienceComponent
   ],
   imports: [
     BrowserModule,
