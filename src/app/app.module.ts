@@ -29,7 +29,9 @@ import { ButtonEditEducationComponent } from './components/education/button-edit
 import { ButtonDeletedEducationComponent } from './components/education/button-deleted-education/button-deleted-education.component';
 import { ButtonEditExperienceComponent } from './components/experience/button-edit-experience/button-edit-experience.component';
 import { ButtonDeletedExperienceComponent } from './components/experience/button-deleted-experience/button-deleted-experience.component';
-
+import { CardHardSkillComponent } from './components/skills/hard-skills/card-hard-skill/card-hard-skill.component';
+import { ButtonEditSkillsComponent } from './components/skills/button-edit-skills/button-edit-skills.component';
+import { CardSoftSkillComponent} from "./components/skills/soft-skills/card-soft-skill/card-soft-skill.component";
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,7 +59,10 @@ import { ButtonDeletedExperienceComponent } from './components/experience/button
     ButtonEditEducationComponent,
     ButtonDeletedEducationComponent,
     ButtonEditExperienceComponent,
-    ButtonDeletedExperienceComponent
+    ButtonDeletedExperienceComponent,
+    CardHardSkillComponent,
+    ButtonEditSkillsComponent,
+    CardSoftSkillComponent,
   ],
   imports: [
     BrowserModule,

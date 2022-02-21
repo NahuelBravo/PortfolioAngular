@@ -1,0 +1,11 @@
+#container{
+    background-color: var(--background-primary);
+    color: var(--font-color-white);
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+fa-icon{
+    font-size: 6em;
+    color: var(--font-color-yellow);
+}
