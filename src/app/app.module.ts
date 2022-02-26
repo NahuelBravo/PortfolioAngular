@@ -32,6 +32,10 @@ import { ButtonDeletedExperienceComponent } from './components/experience/button
 import { CardHardSkillComponent } from './components/skills/hard-skills/card-hard-skill/card-hard-skill.component';
 import { ButtonEditSkillsComponent } from './components/skills/button-edit-skills/button-edit-skills.component';
 import { CardSoftSkillComponent} from "./components/skills/soft-skills/card-soft-skill/card-soft-skill.component";
+import { ImageProyectComponent } from './components/proyects/image-proyect/image-proyect.component';
+import { InfoProyectComponent } from './components/proyects/info-proyect/info-proyect.component';
+import { EditButtonComponent } from './components/buttons/edit-button/edit-button.component';
+import { DeleteButtonComponent } from './components/buttons/delete-button/delete-button.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +67,10 @@ import { CardSoftSkillComponent} from "./components/skills/soft-skills/card-soft
     CardHardSkillComponent,
     ButtonEditSkillsComponent,
     CardSoftSkillComponent,
+    ImageProyectComponent,
+    InfoProyectComponent,
+    EditButtonComponent,
+    DeleteButtonComponent,
   ],
   imports: [
     BrowserModule,
