@@ -1,10 +1,16 @@
-<div id="container" class="d-flex row justify-content-center align-items-center">
+<div class="d-flex row justify-content-around align-items-center">
+  <div
+    id="container"
+    class="d-flex row justify-content-center align-items-center col-6 col-sm-4 col-md-3"
+    *ngFor="let icon of icons"
+  >
     <div class="col-12 d-flex justify-content-center">
-      <fa-icon [icon]="faHtml5"></fa-icon>
+      <fa-icon [icon]="icon.icon"></fa-icon>
     </div>
     <div class="col-12 d-flex justify-content-center">
       <p>
-        <strong>{{ text }}</strong>
+        <strong>{{ icon.text }}</strong>
       </p>
     </div>
   </div>
+</div>

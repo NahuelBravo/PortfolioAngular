@@ -4,12 +4,17 @@
 
 
 <header class="container-fluid row d-flex align-items-center justify-content-between">
+
+  
     <div class=" col order-1 order-sm-1 d-flex justify-content-start align-items-center">
-        <app-logo-arg-prog></app-logo-arg-prog>
+        <img [src]="header.argProgLogo" id="arg-prog-logo"/>
     </div>
+
+
     <div class="col-12 col-sm-6  order-3  order-md-3 d-flex  flex-sm-row justify-content-center">
         <app-social-media></app-social-media>
     </div>
+
     <div class=" col-4 col-sm   order-2 order-sm-3 d-flex justify-content-end align-items-center">
         <app-boton-login-logout></app-boton-login-logout>
     </div>

@@ -1,8 +1,18 @@
 {
-    "name": "Eric Nahuel Bravo",
-    "position": "FullSack Developer Jr.",
-    "profileImg": "assets/Img/blank-profile-picture.png",
-    "about": "Lorem ipsum dolor sit amet, his cibo clita no, nec aliquam patrioque mediocritatem ne. Perfecto repudiare pertinacia sea ut, ei liber consequat vis. Ex dicam molestie scripserit his, probo soluta reprimique vel ut, sit latine laboramus constituam ea. Quaeque percipitur an quo, ea qui option liberavisse. Ius ne putant consetetur. Nostrud adipisci te nec. Vis ullum dictas mediocritatem et.",
+    "header":{
+        "gitHub":"https://github.com/NahuelBravo",
+        "linkedin":"#",
+        "twitter":"https://twitter.com/Nxxhu_",
+        "instagram":"https://www.instagram.com/nxxhu__/",
+        "argProgLogo":"assets/Img/APLogo-20-20.png"
+    },
+
+    "about":{
+        "name": "Eric Nahuel Bravo",
+        "position": "FullSack Developer Jr.",
+        "profileImg": "assets/Img/blank-profile-picture.png",
+        "text": "Lorem ipsum dolor sit amet, his cibo clita no, nec aliquam patrioque mediocritatem ne. Perfecto repudiare pertinacia sea ut, ei liber consequat vis. Ex dicam molestie scripserit his, probo soluta reprimique vel ut, sit latine laboramus constituam ea. Quaeque percipitur an quo, ea qui option liberavisse. Ius ne putant consetetur. Nostrud adipisci te nec. Vis ullum dictas mediocritatem et."
+        },
 
     "education":[{
         "school": "C.P.E.M. N° 80",

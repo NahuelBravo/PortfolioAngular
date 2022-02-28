@@ -7,7 +7,23 @@ header{
     margin-bottom: 3.5em;
 }
 
-app-logo-arg-prog,
+#arg-prog-logo{
+    width: 3em;
+    height: 2em;
+    margin-left: 1em;
+    font-size: 3em;
+}
+
+
+.links{
+    padding: 0 0.5em;
+}
+
+a{
+    color: var(--font-color-white);
+    text-decoration: none;
+}
+
 app-social-media{
     font-size: 3em;
 }
