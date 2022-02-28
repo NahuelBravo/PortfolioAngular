@@ -1,11 +1,26 @@
-<div id="container-buttons" class="d-flex justify-content-center">
-    <div class="buttons">
-        <app-button-edit-education class="col-6"></app-button-edit-education>
-        <app-button-deleted-education class="col-6"></app-button-deleted-education>
-    </div>
-</div>
 
-<div id="card" class="container d-flex align-items-center justify-content-center">
-    <app-logo class="col-3"></app-logo>
-    <app-information class="col-8"></app-information>
+<div class="d-flex row justify-content-around align-items-center">
+<div *ngFor="let education of educations" class="col-12 col-md-5">
+  <div id="container-buttons" class="d-flex justify-content-center">
+    <div class="buttons">
+      <app-edit-button class="col-6"></app-edit-button>
+      <app-delete-button class="col-6"></app-delete-button>
+    </div>
+  </div>
+  <div
+    id="card"
+    class="container d-flex align-items-center justify-content-center"
+  >
+    <div class="col-3">
+      <img id="logo-lugar" [src]="education.img" class="img-fluid" />
+    </div>
+    <div class="col-8">
+      <div id="information">
+        <h3>{{ education.school }}</h3>
+        <p>{{ education.title }}</p>
+        <p>{{ education.anios }}</p>
+      </div>
+    </div>
+  </div>
+</div>
 </div>

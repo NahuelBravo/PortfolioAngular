@@ -1,16 +1,36 @@
-<!--
-    * agregar botones de edicion.
-    * agregar foto.
--->
+<div
+  id="container"
+  class="row d-flex align-items-center justify-content-between"
+>
+  <div class="row col-12 col-md-3 d-flex justify-content-center">
+    <div class="col-12">
+      <img id="img-profile" [src]="about.profileImg" class="img-fluid" />
+    </div>
+    <div class="col-12 d-flex justify-content-end">
+      <app-edit-button></app-edit-button>
+    </div>
+  </div>
 
-<div id="container"class="row d-flex align-items-center justify-content-between">
-    <app-profile-picture class="col-12 col-md-3 d-flex justify-content-center">
-    </app-profile-picture>
+  <div
+    class="col-12 col-md-9 d-flex justify-content-center justify-content-md-start"
+  >
+    <div>
+      <div class="col-12">
+        <h2 id="name">{{ about.name }}</h2>
+      </div>
+      <div class="d-flex col-12 align-items-center">
+        <p id="position">{{ about.position }}</p>
+        <app-edit-button></app-edit-button>
+      </div>
+    </div>
+  </div>
 
-    <app-name-job class="col-12 col-md-9 d-flex justify-content-center justify-content-md-start">
-    </app-name-job>
-
-    <app-text class="col-12 d-flex justify-content-center align-items-center">
-    </app-text>
+  <div class="col-12 d-flex justify-content-center align-items-center">
+    <div id="about-container">
+      <div class="d-flex justify-content-end">
+        <app-edit-button></app-edit-button>
+      </div>
+      <p id="about-text">{{ about.about }}</p>
+    </div>
+  </div>
 </div>
-

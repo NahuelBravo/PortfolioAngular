@@ -1,3 +1,12 @@
+
+#container-buttons{
+    margin-bottom: 1em;
+}
+.buttons{
+    background-color: var(--background-primary);
+    border-radius: 0.5em;
+}
+
 #card{
     padding: 1em 0;
     margin: 0;
@@ -6,10 +15,11 @@
     border-radius: 0.5em;   
 }
 
-#container-buttons{
-    margin-bottom: 1em;
+#logo-lugar{
+    width: 8em;
+    border-radius: 50vw;
 }
-.buttons{
-    background-color: var(--background-primary);
-    border-radius: 0.5em;
+
+#information{
+    padding-left: 1em;
 }

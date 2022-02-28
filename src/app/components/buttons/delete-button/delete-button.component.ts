@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-delete-button',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./delete-button.component.css']
 })
 export class DeleteButtonComponent implements OnInit {
+
+  faTimes = faTimes;
 
   constructor() { }
 
