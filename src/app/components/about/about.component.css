@@ -7,6 +7,11 @@
     margin-bottom: 3.5em;
 }
 
+app-edit-button{
+    margin: 0;
+    padding: 0;
+}
+
 #img-profile{
     width: 15em;
     border-radius: 50vw;

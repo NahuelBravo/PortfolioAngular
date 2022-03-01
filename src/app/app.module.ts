@@ -24,6 +24,8 @@ import { ImageProyectComponent } from './components/proyects/image-proyect/image
 import { InfoProyectComponent } from './components/proyects/info-proyect/info-proyect.component';
 import { EditButtonComponent } from './components/buttons/edit-button/edit-button.component';
 import { DeleteButtonComponent } from './components/buttons/delete-button/delete-button.component';
+import { SigInComponent } from './components/sig-in/sig-in.component';
+import { ButtonsNavComponent } from './components/buttons/buttons-nav/buttons-nav.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,6 @@ import { DeleteButtonComponent } from './components/buttons/delete-button/delete
     BotonLoginLogoutComponent,
     LogoArgProgComponent,
     SocialMediaComponent,
-
     CardComponent,
     CardExpComponent,
     CardHardSkillComponent,
@@ -48,6 +49,8 @@ import { DeleteButtonComponent } from './components/buttons/delete-button/delete
     InfoProyectComponent,
     EditButtonComponent,
     DeleteButtonComponent,
+    SigInComponent,
+    ButtonsNavComponent,
   ],
   imports: [
     BrowserModule,

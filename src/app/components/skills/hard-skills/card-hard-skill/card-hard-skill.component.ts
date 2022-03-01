@@ -9,11 +9,9 @@ import { faHtml5, faCss3,faAngular ,faJsSquare, } from '@fortawesome/free-brands
 export class CardHardSkillComponent implements OnInit {
 
   icons = [{
-    icon: faHtml5, text:"HTML5"},{icon: faCss3, text:"CSS3"},{icon: faAngular, text:"Angular"},{icon: faJsSquare, text:"Javascript"}
+    icon: faHtml5, text:"HTML5"},{icon: faCss3, text:"CSS3"},
+    {icon: faAngular, text:"Angular"},{icon: faJsSquare, text:"Javascript"}
 ]
-  
-
-  text: string = "HTML5";
 
   constructor() { }
 

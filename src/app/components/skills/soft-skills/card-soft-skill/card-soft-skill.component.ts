@@ -13,7 +13,6 @@ export class CardSoftSkillComponent implements OnInit {
     {icon: faExclamationCircle , text:"Resolucion de Problemas"},{icon: faComments , text:"Comunicacion"}
   ]
 
-  text: string = "HTML5";
 
   constructor() { }
 
