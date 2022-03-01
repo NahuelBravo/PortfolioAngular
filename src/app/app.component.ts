@@ -5,7 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent {
   title = 'PorfolioAngular';
-  imgBackground: string = "assets/Img/background-image.jpg";
+  background = "assets/Img/background-image.jpg";
+
 }
