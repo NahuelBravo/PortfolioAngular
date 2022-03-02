@@ -1,0 +1,20 @@
+<div
+  class="main-container"
+  [ngStyle]="{
+    'background-image': 'url(' + background + ')',
+    'background-size': '100% 100%',
+    'background-attachment': 'fixed'
+  }"
+>
+  <app-header></app-header>
+
+  <app-about
+    class="d-flex justify-content-center align-items-center"
+  ></app-about>
+
+  <app-buttons-nav></app-buttons-nav>
+
+  <router-outlet></router-outlet>
+</div>
+
+

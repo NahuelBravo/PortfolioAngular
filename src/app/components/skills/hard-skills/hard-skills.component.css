@@ -1,0 +1,13 @@
+
+#main-container{
+    width: 85vw;
+}
+
+#title{
+    margin-bottom: 1.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 50vw;
+    background-color: var(--background-secondary);
+    color: var(--font-color-yellow);
+}
