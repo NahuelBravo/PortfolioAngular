@@ -1,0 +1,40 @@
+<app-boton-login-logout   type="button"  data-bs-toggle="modal"
+data-bs-target="#loginModal"></app-boton-login-logout>
+<div
+  class="modal fade"
+  id="loginModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content"
+    
+    [ngStyle]="{
+      'background-image': 'url(' + background + ')',
+      'background-size': '100% 100%',
+      'background-attachment': 'fixed'
+    }">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><strong>Login</strong></h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <form action="#">
+      <div class="modal-body d-flex row justify-content-betwen">
+        <p><strong>Usuario</strong></p>
+          <input type="text" placeholder="Usuario" required /> 
+          <p><strong>Contraseña</strong></p>
+          <input type="password" placeholder="Contraseña" required />       
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-outline-warning"><strong>Sign In</strong></button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>

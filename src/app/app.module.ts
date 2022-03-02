@@ -25,6 +25,12 @@ import { InfoProyectComponent } from './components/proyects/info-proyect/info-pr
 import { EditButtonComponent } from './components/buttons/edit-button/edit-button.component';
 import { DeleteButtonComponent } from './components/buttons/delete-button/delete-button.component';
 import { ButtonsNavComponent } from './components/buttons/buttons-nav/buttons-nav.component';
+import { ModalAboutComponent } from './components/modales/modal-about/modal-about.component';
+import { ModalLoginComponent } from './components/modales/modal-login/modal-login.component';
+import { ModalEducationComponent } from './components/modales/modal-education/modal-education.component';
+import { ModalExperienceComponent } from './components/modales/modal-experience/modal-experience.component';
+
+
 
 @NgModule({
   declarations: [
@@ -49,6 +55,12 @@ import { ButtonsNavComponent } from './components/buttons/buttons-nav/buttons-na
     EditButtonComponent,
     DeleteButtonComponent,
     ButtonsNavComponent,
+    ModalAboutComponent,
+    ModalLoginComponent,
+    ModalEducationComponent,
+    ModalExperienceComponent,
+
+
   ],
   imports: [
     BrowserModule,

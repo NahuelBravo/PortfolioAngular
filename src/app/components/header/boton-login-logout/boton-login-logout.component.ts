@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faSignInAlt} from '@fortawesome/free-solid-svg-icons';
 
+
 @Component({
   selector: 'app-boton-login-logout',
   templateUrl: './boton-login-logout.component.html',
@@ -8,7 +9,9 @@ import { faSignInAlt} from '@fortawesome/free-solid-svg-icons';
 })
 export class BotonLoginLogoutComponent implements OnInit {
 
+  
   signIn = faSignInAlt;
+
   constructor() { }
 
   ngOnInit(): void {

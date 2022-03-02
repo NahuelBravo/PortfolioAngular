@@ -1,0 +1,49 @@
+<app-edit-button  
+type="button"
+data-bs-toggle="modal"
+data-bs-target="#aboutModal"></app-edit-button>
+
+<div
+  class="modal fade"
+  id="aboutModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+
+
+>
+  <div class="modal-dialog"   >
+    <div class="modal-content"
+    [ngStyle]="{
+      'background-image': 'url(' + background + ')',
+      'background-size': '100% 100%',
+      'background-attachment': 'fixed'
+    }">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <form action="#">
+      <div class="modal-body d-flex row justify-content-betwen">
+
+        <p><strong>Imagen de Perfil</strong></p>
+        <input type="file" accept="image/*">
+
+        <p><strong>Posicion (Trabajo)</strong></p>
+        <input type="text" placeholder="Posicion (Trabajo)" required /> 
+        
+        <p><strong>Acerca de</strong></p>
+        <input type="text" placeholder="Acerca de" required />       
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-outline-warning"><strong>Guardar</strong></button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
