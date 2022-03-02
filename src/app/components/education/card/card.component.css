@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #sub-container{
+=======
+#card-container{
+>>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
     margin-top: 2em;
 }
 
@@ -6,12 +10,20 @@
     margin-bottom: 1em;
 }
 
+<<<<<<< HEAD
 #sub-container-buttons{
+=======
+.buttons{
+>>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
     background-color: var(--background-primary);
     border-radius: 0.5em;
 }
 
+<<<<<<< HEAD
 #card-container{
+=======
+#card{
+>>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
     padding: 1em 0;
     margin: 0;
     background-color:var(--background-primary);
@@ -26,6 +38,7 @@
 
 #information{
     padding-left: 1em;
+<<<<<<< HEAD
 }
 
 #information h3{
@@ -34,4 +47,6 @@
 
 #information #anios{
     color: var(--font-color-yellow);
+=======
+>>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
 }
