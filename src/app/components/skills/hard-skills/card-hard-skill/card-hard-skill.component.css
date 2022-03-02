@@ -1,13 +1,10 @@
-<<<<<<< HEAD
+
 #main-container{
     margin: 0;
     padding: 0;
 }
 
 #sub-container{
-=======
-#container{
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
     background-color: var(--background-primary);
     color: var(--font-color-white);
     border-radius: 0.5em;
@@ -17,11 +14,10 @@
 fa-icon{
     font-size: 6em;
     color: var(--font-color-yellow);
-<<<<<<< HEAD
+
 }
 
 p{
     color: var(--font-color-pink);
-=======
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
+
 }

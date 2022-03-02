@@ -1,36 +1,20 @@
-<<<<<<< HEAD
+
 #sub-container{
     margin-top: 2em;
 }
 
-=======
-#card-container{
-    margin-top: 2em;
-}
-
-#card{
-    padding: 1em 0;
-    margin: 0;
-    background-color:var(--background-primary);
-    color: var(--font-color-white);
-    border-radius: 0.5em;   
-}
-
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
 #container-buttons{
     margin-bottom: 1em;
 }
 
-<<<<<<< HEAD
+
 #sub-container-buttons{
-=======
-.buttons{
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
+
     background-color: var(--background-primary);
     border-radius: 0.5em;
 }
 
-<<<<<<< HEAD
+
 #card-container{
     padding: 1em 0;
     margin: 0;
@@ -39,8 +23,6 @@
     border-radius: 0.5em;   
 }
 
-=======
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
 #logo-lugar{
     width: 8em;
     border-radius: 50vw;
@@ -48,7 +30,7 @@
 
 #information{
     padding-left: 1em;
-<<<<<<< HEAD
+
 }
 
 #information h3{
@@ -57,6 +39,4 @@
 
 #information #anios{
     color: var(--font-color-yellow);
-=======
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
 }

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #main-container{
     margin-top: 1em;
     padding-bottom: 1em;
@@ -8,25 +8,3 @@
     width: 85vw;
 }
 
-#title{
-=======
-#container{
-    width: 85vw;
-}
-
-.title{
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
-    margin-bottom: 1.5em;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    width: 50vw;
-    background-color: var(--background-primary);
-    color: var(--font-color-yellow);
-<<<<<<< HEAD
-=======
-}
-
-app-card{
-    padding-bottom: 1.5em;
->>>>>>> 8f45583179a782016f301b1a919fac4a5c80ccf0
-}
