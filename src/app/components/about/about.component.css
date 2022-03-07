@@ -1,5 +1,5 @@
 #container{
-    width: 85vw;
+    width: 70vw;
     background-color: var(--background-primary);
     padding: 1em;
     color: var(--font-color-white);
@@ -35,4 +35,5 @@ app-edit-button{
 
 #about-text{
     font-size: 1.1em;
+    word-wrap: break-word;
 }

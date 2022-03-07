@@ -1,0 +1,64 @@
+{
+  "header": {
+    "gitHub": "https://github.com/NahuelBravo",
+    "linkedin": "#",
+    "twitter": "https://twitter.com/Nxxhu_",
+    "instagram": "https://www.instagram.com/nxxhu__/",
+    "argProgLogo": "assets/Img/APLogo-20-20.png"
+  },
+  "about": [
+    {
+      "id": 1,
+      "profileImg": "https://i.blogs.es/e1feab/google-fotos/1366_2000.jpg",
+      "name": "Eric Nahuel Bravo",
+      "position": "FullStack Developer Jr.",
+      "text": "hola soy nahuel y pude hacer andar este form"
+    }
+  ],
+  "education": [
+    {
+      "school": "C.P.E.M. N° 80",
+      "img": "assets/Img/C.P.E.M-80.jpg",
+      "title": "Tecnico en Gestion de Proyectos Audiovisuales",
+      "comienzo": "2017",
+      "final": "2019"
+    },
+    {
+      "school": "C.P.E.M. N° 80",
+      "img": "assets/Img/C.P.E.M-80.jpg",
+      "title": "Tecnico en Gestion de Proyectos Audiovisuales",
+      "comienzo": "2017",
+      "final": "2019"
+    },
+    {
+      "school": "C.P.E.M. N° 80",
+      "img": "assets/Img/C.P.E.M-80.jpg",
+      "title": "Tecnico en Gestion de Proyectos Audiovisuales",
+      "comienzo": "2017",
+      "final": "2019"
+    }
+  ],
+  "experience": [
+    {
+      "companie": "C.P.E.M. N° 80",
+      "img": "assets/Img/C.P.E.M-80.jpg",
+      "job": "FullSack Developer Jr.",
+      "comienzo": "2017",
+      "final": "2019"
+    },
+    {
+      "companie": "C.P.E.M. N° 80",
+      "img": "assets/Img/C.P.E.M-80.jpg",
+      "job": "FullSack Developer Jr.",
+      "comienzo": "2017",
+      "final": "2019"
+    },
+    {
+      "companie": "C.P.E.M. N° 80",
+      "img": "assets/Img/C.P.E.M-80.jpg",
+      "job": "FullSack Developer Jr.",
+      "comienzo": "2017",
+      "final": "2019"
+    }
+  ]
+}

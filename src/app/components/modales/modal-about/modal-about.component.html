@@ -28,22 +28,32 @@ data-bs-target="#aboutModal"></app-edit-button>
           aria-label="Close"
         ></button>
       </div>
-      <form action="#">
+
+      <!---->
+
+      <form (ngSubmit)="submitAbout()">
+
       <div class="modal-body d-flex row justify-content-betwen">
+        <label for="profileImg">Imagen de Perfil:</label>
+        <input type="text" name="profileImg" id="profileImg"  placeholder="URL Imagen" required [(ngModel)]="profileImg">
 
-        <p><strong>Imagen de Perfil</strong></p>
-        <input type="file" accept="image/*">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name" placeholder="Nombre" required [(ngModel)]="name" /> 
 
-        <p><strong>Posicion (Trabajo)</strong></p>
-        <input type="text" placeholder="Posicion (Trabajo)" required /> 
+        <label for="position">Posicion (Trabajo):</label>
+        <input type="text" name="position" id="position" placeholder="Posicion (Trabajo)" required [(ngModel)]="position" /> 
         
-        <p><strong>Acerca de</strong></p>
-        <input type="text" placeholder="Acerca de" required />       
+        <label for="text">Acerca De:</label>
+        <input type="text" name="text" id="text" placeholder="Acerca de" required [(ngModel)]="text" />       
       </div>
+
       <div class="modal-footer">
-        <button type="submit" class="btn btn-outline-warning"><strong>Guardar</strong></button>
+        <input type="submit" value="Guardar" class="btn btn-outline-warning">
       </div>
+
     </form>
+
+    <!---->
     </div>
   </div>
 </div>

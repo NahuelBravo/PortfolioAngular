@@ -1,6 +1,15 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+
+import { About } from './about/interfaceAbout';
+
+const httpOptions = {
+  
+  headers: new HttpHeaders({
+    'Content-Type':'application/json'
+  })
+}
 
 
 @Injectable({
@@ -9,17 +18,22 @@ import { Observable } from 'rxjs';
 export class GeneralServiceService {
 
 
-  /* About 
-  nameAbout: string = "Eric Nahuel Bravo";
-  jobAbout: string = "Full Stack Developer Jr.";
-  textAbout: string = "Lorem ipsum dolor sit amet, his cibo clita no, nec aliquam patrioque mediocritatem ne. Perfecto repudiare pertinacia sea ut, ei liber consequat vis. Ex dicam molestie scripserit his, probo soluta reprimique vel ut, sit latine laboramus constituam ea. Quaeque percipitur an quo, ea qui option liberavisse. Ius ne putant consetetur. Nostrud adipisci te nec. Vis ullum dictas mediocritatem et.";
-  */ 
-
+  private apiUrlAbout = "http://localhost:5000/about";
 
   constructor(private http:HttpClient) { 
   }
 
+  getAbout(): Observable<About[]>{
+    return this.http.get<About[]>(this.apiUrlAbout);
+  }
+
   obtenerDatos(): Observable<any>{
     return this.http.get("assets/data/data.json");
+  }
+
+  editAbout(about: About): Observable<About[]>{
+    console.log("hola soy el servicio")
+    const url =`${this.apiUrlAbout}/${about.id}`
+    return this.http.put<About[]>(url, about, httpOptions)
   }
 }
